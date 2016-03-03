@@ -21,9 +21,14 @@ class LicenseController extends Controller
         $this->middleware('auth');
     }
 
-    public function index()
+    public function index(Request $request)
     {
-        return view('license.index');
+        $searchInput = $request->get('search');
+
+        $licenses = License::search($searchInput)->with('activityType')->paginate(10);
+        return view('license.index', compact('licenses'));
+
+
     }
 
 
@@ -41,7 +46,7 @@ class LicenseController extends Controller
     {
         $license = License::hasNumber($licenseNumber);
 
-        return view('license.show',compact('license'));
+        return view('license.show', compact('license'));
 
     }
 
@@ -51,7 +56,7 @@ class LicenseController extends Controller
      */
     public function store(LicenseRequest $request)
     {
-        License::create([
+        $license = License::create([
             'license_number' => $request['licenseNumber'],
             'activity_type' => $request['activityType'],
             'issue_date' => $request['issueDate'],
@@ -77,7 +82,7 @@ class LicenseController extends Controller
 
         flash()->success('License Created!', 'License record has been successfully created.');
 
-        return redirect()->back();
+        return redirect('/license/' . $license->license_number);
     }
 
     public function addDocument($licenseNumber, Request $request)

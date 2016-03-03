@@ -19,3 +19,9 @@ function menuActiveRoute($routeName, $includeClass = true, $className = 'active'
     $activeClass = ($includeClass ? "class=\"{$className}\"" : $className);
     return preg_match('/^' . preg_quote($routeName, '/') . '/', Route::currentRouteName()) ? $activeClass : '';
 }
+
+
+function defaultDateFormat(Carbon\Carbon $date)
+{
+    return $date->format('d-m-Y');
+}

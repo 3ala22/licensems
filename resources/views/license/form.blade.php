@@ -32,7 +32,7 @@
                 </label>
                 <select name="activityType" class="form-control" id="activity_type" required>
                     @foreach($activityTypes as $type)
-                        <option value="{{$type["code"]}}">{{$type["name"]}}</option>
+                        <option value="{{$type["id"]}}">{{$type["name"]}}</option>
                     @endforeach
                 </select>
             </div>
