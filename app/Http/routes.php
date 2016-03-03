@@ -27,5 +27,14 @@ Route::get('/', function () {
 */
 
 Route::group(['middleware' => ['web']], function () {
-    Route::resource('license', 'LicenseController');
+    Route::resource('/license', 'LicenseController');
+    Route::post('/license/{licenseNumber}/documents', 'LicenseController@addDocument');
+
+    Route::auth();
+
+    Route::get('/home', [
+            'as' => 'home',
+            'uses' => 'HomeController@index']
+    );
+
 });

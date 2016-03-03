@@ -1,0 +1,17 @@
+{
+  "name": "licems",
+  "version": "0.0.0",
+  "authors": [
+    "Ala' Hawash <alaa@hillsadvertising.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "resources/assets/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
+}

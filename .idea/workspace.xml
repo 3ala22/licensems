@@ -16,16 +16,17 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="licems" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="helpers.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/helpers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6598131">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -33,26 +34,63 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_02_15_133407_create_licenses_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/.bowerrc" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/master.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/partials/nav.blade.php" />
-        <option value="$PROJECT_DIR$/resources/assets/sass/_layout.scss" />
         <option value="$PROJECT_DIR$/resources/assets/sass/app.scss" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/LicenseController.php" />
-        <option value="$PROJECT_DIR$/resources/views/license/create.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_02_21_114151_create_activity_types_table.php" />
-        <option value="$PROJECT_DIR$/database/seeds/ActivityTypesSeeder.php" />
-        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/ActivityType.php" />
         <option value="$PROJECT_DIR$/app/Models/ActivityType.php" />
+        <option value="$PROJECT_DIR$/database/seeds/LegalTypesSeeder.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_26_163824_create_lookups_table.php" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/LookupsSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/ActivityTypesSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Lookup.php" />
+        <option value="$PROJECT_DIR$/app/Models/Lookup.php" />
+        <option value="$PROJECT_DIR$/resources/views/license/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/partials/errors.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_15_133407_create_licenses_table.php" />
+        <option value="$PROJECT_DIR$/.bowerrc" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/app/Http/Flash.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/resources/views/partials/flash.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/LicenseRequest.php" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_03_01_131907_create_documents_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/license/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Models/License.php" />
+        <option value="$PROJECT_DIR$/app/Models/Document.php" />
+        <option value="$PROJECT_DIR$/resources/views/license/form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/LicenseController.php" />
+        <option value="$PROJECT_DIR$/resources/views/license/index.blade.php" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/master.blade.php" />
+        <option value="$PROJECT_DIR$/resources/assets/sass/_layout.scss" />
+        <option value="$PROJECT_DIR$/resources/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/storage/framework/views/183671a0653e196cdbf9653f64605ae5320cd41d.php" />
+        <option value="$PROJECT_DIR$/resources/views/partials/nav.blade.php" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Router.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/helpers.php" />
       </list>
     </option>
   </component>
@@ -69,7 +107,9 @@
     <order />
   </component>
   <component name="PhpServers">
-    <servers />
+    <servers>
+      <server host="licems.app" id="731df7dc-8468-46cc-bc95-575c5a353f0c" name="licems.app" />
+    </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -118,22 +158,65 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="licems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="licems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="licems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="licems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hub.app" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\licems\resources\assets\js\libs" />
+      <recent name="C:\xampp\htdocs\licems\resources\assets\css\libs" />
+      <recent name="C:\xampp\htdocs\licems\resources\assets\js" />
+      <recent name="C:\xampp\htdocs\licems\resources\assets\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\licems\resources\assets\js\libs" />
+      <recent name="C:\xampp\htdocs\licems\resources\assets\css\libs" />
       <recent name="C:\xampp\htdocs\licems\app\Models" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Web Application.Licems">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -154,6 +237,9 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -163,6 +249,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="Licems" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="licems.app">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.Licems" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -178,28 +270,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1932" height="1047" extended-state="0" />
-    <editor active="false" />
+    <frame x="-7" y="0" width="1932" height="1047" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25801283" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15170941" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32943678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3995749" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943678" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -215,324 +307,721 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.scss">
+    <entry file="file://$PROJECT_DIR$/app/Http/Flash.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5409836">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/libs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53431374">
+          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69508195">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/flash.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.757377">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/LicenseRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.757377">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/libs/dropzone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27818757">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/css/libs/dropzone.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14642262">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40266222">
+          <caret line="111" column="8" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsTo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3294509">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5973378">
+          <caret line="860" column="25" selection-start-line="860" selection-start-column="25" selection-end-line="860" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/Relation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8485981">
+          <caret line="184" column="19" selection-start-line="184" selection-start-column="19" selection-end-line="184" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_01_131907_create_documents_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6589018">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/http-foundation/File/UploadedFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.6356072">
+          <caret line="119" column="20" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/license/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <marker date="1456054835044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1456054835044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1456054835044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1456054835044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1456054835044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1456054835044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1456054835044" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.36605656">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/resources/views/license/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.74875206">
+          <caret line="22" column="34" selection-start-line="21" selection-start-column="45" selection-end-line="22" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env.example">
+    <entry file="file://$PROJECT_DIR$/app/Models/Document.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20919175">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8039867">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.bowerrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.073089704">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5578447">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-sass/assets/stylesheets/_bootstrap-compass.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-sass/assets/stylesheets/_bootstrap-sprockets.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-sass/assets/stylesheets/_bootstrap-mincer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_utilities.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.68386024">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3294509">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0765392">
-          <caret line="59" column="18" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44259566">
-          <caret line="143" column="36" selection-start-line="143" selection-start-column="36" selection-end-line="143" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/app.css.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56542057">
-          <caret line="0" column="2954" selection-start-line="0" selection-start-column="2954" selection-end-line="0" selection-end-column="2954" />
-        </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.169045">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24149287">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/partials/nav.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3622393">
-          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/sass/_layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04829857">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/bootstrap">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-sass/templates/project/_bootstrap-variables.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39956093">
-          <caret line="181" column="55" selection-start-line="181" selection-start-column="55" selection-end-line="181" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92425907">
-          <caret line="712" column="20" selection-start-line="712" selection-start-column="14" selection-end-line="712" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14473684">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LicenseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24122807">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding>
-            <marker date="1456054784573" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1456054784573" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1456054784573" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/license/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47508305">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <marker date="1456054835044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1456054835044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1456054835044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1456054835044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1456054835044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1456054835044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1456054835044" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_15_133407_create_licenses_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43023255">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding>
-            <marker date="1455544211214" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1455544211214" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1455544211214" expanded="true" signature="-1:-1" placeholder=" Run the migrations. ..." />
-            <marker date="1455544211214" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1455544211214" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1455544211214" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1455544211214" expanded="true" signature="-1:-1" placeholder=" Reverse the migrations. ..." />
-            <marker date="1455544211214" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_21_114151_create_activity_types_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58471763">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-          <folding>
-            <marker date="1456055083962" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1456055083962" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1456055083962" expanded="true" signature="-1:-1" placeholder=" Run the migrations. ..." />
-            <marker date="1456055083962" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1456055083962" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1456055083962" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1456055083962" expanded="true" signature="-1:-1" placeholder=" Reverse the migrations. ..." />
-            <marker date="1456055083962" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/ActivityTypesSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58471763">
-          <caret line="67" column="63" selection-start-line="67" selection-start-column="63" selection-end-line="67" selection-end-column="63" />
-          <folding>
-            <marker date="1456055988082" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1456055988082" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1456055988082" expanded="true" signature="-1:-1" placeholder=" Run the database seeds. ..." />
-            <marker date="1456055988082" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1456055988082" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58471763">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1456056004827" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1456056004827" expanded="true" signature="-1:-1" placeholder=" Run the database seeds. ..." />
-            <marker date="1456056004827" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/ActivityType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29235882">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1456056374767" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+        <state vertical-scroll-proportion="0.77537435">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/License.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47508305">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <marker date="1456056402485" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1456056402485" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+        <state vertical-scroll-proportion="0.9267887">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/license/form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7321131">
+          <caret line="185" column="18" selection-start-line="185" selection-start-column="18" selection-end-line="185" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21963394">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8419301">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36605656">
+          <caret line="49" column="48" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/emails/password.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21963394">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62229615">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LicenseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54908484">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/license/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18302828">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36605656">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.2793651">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07321131">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62229615">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8301587">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62229615">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21963394">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07321131">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5936508">
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.104761906">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33271027">
+          <caret line="214" column="0" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35140187">
+          <caret line="780" column="0" selection-start-line="780" selection-start-column="0" selection-end-line="780" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/nav.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50713503">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1456917251403" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1456917251403" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1456917251403" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1456917251403" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1456917251403" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1456917251403" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1456917251403" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1456917251403" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1456917251403" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1456917251403" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66312057">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/framework/views/183671a0653e196cdbf9653f64605ae5320cd41d.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35140187">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <marker date="1456917258962" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1456917258962" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1456917258962" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1456917258962" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1456917258962" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1456917258962" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1456917258962" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1456917258962" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1456917258962" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1456917258962" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1456917258962" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1456917258962" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28785047">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <marker date="1455445293370" expanded="true" signature="-1:-1" placeholder=" @see \Illuminate\Routing\Router ..." />
+            <marker date="1455445293370" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293370" expanded="true" signature="-1:-1" placeholder=" Get the registered name of the component. ..." />
+            <marker date="1455445293370" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/routing/Route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67476636">
+          <caret line="216" column="21" selection-start-line="216" selection-start-column="21" selection-end-line="216" selection-end-column="21" />
+          <folding>
+            <marker date="1455445236163" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" A Route describes a route and its parameters. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" @var string ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" @var string ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" @var array ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" @var array ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" @var array ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" @var array ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" @var array ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" @var null|CompiledRoute ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" @var string ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Constructor. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" {@inheritdoc} ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" {@inheritdoc} ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Returns the pattern for the path. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Sets the pattern for the path. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Returns the pattern for the host. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Sets the pattern for the host. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Returns the lowercased schemes this route is restricted to. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Sets the schemes (e.g. 'https') this route is restricted to. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Checks if a scheme requirement has been set. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Returns the uppercased HTTP methods this route is restricted to. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Sets the HTTP methods (e.g. 'POST') this route is restricted to. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Returns the options. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Sets the options. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Adds options. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Sets an option value. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Get an option value. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Checks if an option has been set. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Returns the defaults. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Sets the defaults. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Adds defaults. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Gets a default value. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Checks if a default value is set for the given variable. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Sets a default value. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Returns the requirements. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Sets the requirements. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Adds requirements. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Returns the requirement for the given key. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Checks if a requirement is set for the given key. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Sets a requirement for the given key. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Returns the condition. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Sets the condition. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder=" Compiles the route. ..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445236163" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58878505">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <marker date="1457005558021" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1457005558021" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457005558021" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457005558021" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457005558021" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457005558021" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457005558021" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457005558021" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28411216">
+          <caret line="131" column="7" selection-start-line="131" selection-start-column="7" selection-end-line="131" selection-end-column="7" />
+          <folding>
+            <marker date="1455445293052" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" The event dispatcher instance. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" The IoC container instance. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" The route collection instance. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" The currently dispatched route instance. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" The request currently being dispatched. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" All of the short-hand keys for middlewares. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" All of the middleware groups. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" The registered route value binders. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" The globally available parameter patterns. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" The route group attribute stack. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" All of the verbs supported by the router. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Create a new Router instance. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Register a new GET route with the router. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Register a new POST route with the router. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Register a new PUT route with the router. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Register a new PATCH route with the router. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Register a new DELETE route with the router. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Register a new OPTIONS route with the router. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Register a new route responding to all verbs. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Register a new route with the given verbs. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Register an array of controllers with wildcard routing. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Route a controller to a URI with wildcard routing. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Register an inspected controller route. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Add a fallthrough route for a controller. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Register an array of resource controllers. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Route a resource to a controller. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Register the typical authentication routes for an application. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Create a route group with shared attributes. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Update the group stack with the given attributes. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Merge the given array with the last group stack. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Merge the given group attributes. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Format the uses prefix for the new group attributes. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Format the prefix for the new group attributes. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Get the prefix from the last group on the stack. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Add a route to the underlying route collection. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Create a new route instance. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Create a new Route object. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Prefix the given URI with the last prefix. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Add the necessary where clauses to the route based on its initial registration. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Merge the group stack with the controller action. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Determine if the action is routing to a controller. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Add a controller based route action to the action array. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Prepend the last group uses onto the use clause. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Dispatch the request to the application. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Dispatch the request to a route and return the response. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Run the given route within a Stack &quot;onion&quot; instance. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Gather the middleware for the given route. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Resolve the middleware name to a class name(s) preserving passed parameters. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Parse the middleware group and format it for usage. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Find the route matching a given request. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Substitute the route bindings onto the route. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Substitute the implicit Eloquent model bindings for the route. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Call the binding callback for the given key. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Register a route matched event listener. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Get all of the defined middleware short-hand names. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Register a short-hand name for a middleware. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Register a group of middleware. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Register a model binder for a wildcard. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Add a new route parameter binder. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Create a class based binding using the IoC container. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Set a global where pattern on all routes. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Set a group of global where patterns on all routes. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Create a response instance from the given value. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Determine if the router currently has a group stack. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Get the current group stack for the router. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Get a route parameter for the current route. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Get the currently dispatched route instance. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Get the currently dispatched route instance. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Check if a route with the given name exists. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Get the current route name. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Alias for the &quot;currentRouteNamed&quot; method. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Determine if the current route matches a given name. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Get the current route action. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Alias for the &quot;currentRouteUses&quot; method. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Determine if the current route action matches a given action. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Get the request currently being dispatched. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Get the underlying route collection. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Set the route collection instance. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder=" Get the global &quot;where&quot; patterns. ..." />
+            <marker date="1455445293052" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6598131">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>

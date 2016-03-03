@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class DatabaseSeeder extends Seeder
 {
@@ -11,6 +12,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-         $this->call(ActivityTypesSeeder::class);
+        DB::table('activity_types')->truncate();
+        DB::table('lookups')->truncate();
+
+        $this->call(ActivityTypesSeeder::class);
+        $this->call(LookupsSeeder::class);
     }
 }
